@@ -10,6 +10,7 @@
     "build1": "yarn clean && mkdir ./dist && tsc --p ./src/1-hello-world/tsconfig.json",
     "build2": "yarn clean && mkdir ./dist && tsc --p ./src/2-basic-types/tsconfig.json",
     "build3": "yarn clean && mkdir ./dist && tsc --p ./src/3-enums/tsconfig.json",
+    "build4": "yarn clean && mkdir ./dist && tsc --p ./src/4-interfaces/tsconfig.json",
     "clean": "rm -rf ./dist"
   },
   "devDependencies": {
