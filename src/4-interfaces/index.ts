@@ -88,3 +88,8 @@ interface Point {
   readonly x: number;
   readonly y: number;
 }
+
+// optional properties
+interface Point {
+  readonly z?: number;
+}
