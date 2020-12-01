@@ -3,6 +3,7 @@
   "compilerOptions": {
     "target": "ES2015",
     "typeRoots": ["../types"],
-    // "traceResolution": true
+    // "traceResolution": true,
+    "lib": []
   }
 }
