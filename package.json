@@ -14,9 +14,14 @@
     "build5": "yarn clean && mkdir ./dist && tsc -b ./src/5-indexers",
     "build6": "yarn clean && mkdir ./dist && tsc -b ./src/6-functions",
     "build7": "yarn clean && mkdir ./dist && tsc -b ./src/7-classes",
+    "build8": "yarn clean && mkdir ./dist && tsc -b ./src/8-declaration",
     "clean": "rm -rf ./dist"
   },
   "devDependencies": {
     "typescript": "^4.1.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.20",
+    "ts-node": "^9.0.0"
   }
 }
