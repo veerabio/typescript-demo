@@ -7,6 +7,8 @@
   "license": "MIT",
   "scripts": {
     "build": "yarn clean && mkdir ./dist && tsc",
+    "build1": "yarn clean && mkdir ./dist && tsc --p ./src/1-hello-world/tsconfig.json",
+    "build2": "yarn clean && mkdir ./dist && tsc --p ./src/2-basic-types/tsconfig.json",
     "clean": "rm -rf ./dist"
   },
   "devDependencies": {
