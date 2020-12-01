@@ -1,2 +1,2 @@
-const helloWorld = 'Hello Br.io';
+const helloWorld: string = 'Hello Br.io';
 console.log(helloWorld);
