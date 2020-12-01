@@ -96,3 +96,6 @@ class AnalogClock implements ClockInterface {
 
 let digital = createClock(DigitalClock, 12, 17);
 let analog = createClock(AnalogClock, 7, 32);
+
+
+// using arrow syntax for methods binds 'this'
