@@ -6,7 +6,8 @@
   "author": "veera <veera_cheedepudi-reddy@bio-rad.com>",
   "license": "MIT",
   "scripts": {
-    "build": "rm -rf ./dist && mkdir ./dist && tsc --build"
+    "build": "yarn clean && mkdir ./dist && tsc --build",
+    "clean": "rm -rf ./dist"
   },
   "devDependencies": {
     "typescript": "^4.1.2"
