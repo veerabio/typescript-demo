@@ -1,0 +1,8 @@
+{
+  "name": "typescript-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/veerabio/typescript-demo.git",
+  "author": "veera <veera_cheedepudi-reddy@bio-rad.com>",
+  "license": "MIT"
+}
