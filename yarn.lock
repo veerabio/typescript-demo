@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@types/node@^14.14.10":
+  version "14.14.10"
+  resolved "https://bio-rad-lsg-490541681917.d.codeartifact.us-west-2.amazonaws.com:443/npm/lsg-npm/@types/node/-/node-14.14.10.tgz#5958a82e41863cfc71f2307b3748e3491ba03785"
+  integrity sha512-J32dgx2hw8vXrSbu4ZlVhn1Nm3GbeCFNw2FWL8S5QKucHGY0cyNwjdQdO+KMBZ4wpmC7KhLCiNsdk1RFRIYUQQ==
+
 "@types/underscore@^1.10.24":
   version "1.10.24"
   resolved "https://bio-rad-lsg-490541681917.d.codeartifact.us-west-2.amazonaws.com:443/npm/lsg-npm/@types/underscore/-/underscore-1.10.24.tgz#dede004deed3b3f99c4db0bdb9ee21cae25befdd"
