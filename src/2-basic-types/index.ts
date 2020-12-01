@@ -19,6 +19,10 @@ let list1: Array<number> = [1, 2, 3];
 // tuple
 let x: [string, number];
 x = ["hello", 10]; // OK
+
+console.log(x[0].length);
+console.log(x[1].length);
+
 x = [10, "hello"]; // Error
 
 // unknown
