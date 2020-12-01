@@ -12,6 +12,7 @@
     "build3": "yarn clean && mkdir ./dist && tsc --p ./src/3-enums/tsconfig.json",
     "build4": "yarn clean && mkdir ./dist && tsc --p ./src/4-interfaces/tsconfig.json",
     "build5": "yarn clean && mkdir ./dist && tsc --p ./src/5-indexers/tsconfig.json",
+    "build6": "yarn clean && mkdir ./dist && tsc --p ./src/6-functions/tsconfig.json",
     "clean": "rm -rf ./dist"
   },
   "devDependencies": {
