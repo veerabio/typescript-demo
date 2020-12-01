@@ -5,6 +5,9 @@
   "repository": "https://github.com/veerabio/typescript-demo.git",
   "author": "veera <veera_cheedepudi-reddy@bio-rad.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "rm -rf ./dist && mkdir ./dist && tsc --build"
+  },
   "devDependencies": {
     "typescript": "^4.1.2"
   }
