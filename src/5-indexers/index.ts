@@ -44,6 +44,9 @@
   interface ReadonlyStringArray {
     readonly [index: number]: string;
   }
+
+  // NOTE: there is a built-in ReadOnlyArray - ReadOnlyArray<string> or readonly string[]
+  // same for tuples - readonly [string, string]
   
   let myReadOnlyArray: ReadonlyStringArray = ["Alice", "Bob"];
   myReadOnlyArray[2] = "Mallory"; // error!
