@@ -14,3 +14,5 @@ const validatedInput = validateUserInput(rawInput);
 printName(validatedInput);
 
 printName(rawInput);
+
+// https://michalzalecki.com/nominal-typing-in-typescript/
