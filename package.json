@@ -16,6 +16,7 @@
     "dev7": "ts-node --project ./src/7-classes/tsconfig.json ./src/7-classes/index.ts",
     "dev8": "ts-node --project ./src/8-declaration/tsconfig.json ./src/8-declaration/index.ts",
     "dev9": "ts-node --project ./src/9-module/tsconfig.json ./src/9-module/index.ts",
+    "dev10": "ts-node --project ./src/10-nominal-typing/tsconfig.json ./src/10-nominal-typing/index.ts",
     "build": "yarn clean && mkdir ./dist && tsc",
     "build1": "yarn clean && mkdir ./dist && tsc -b ./src/1-hello-world",
     "build2": "yarn clean && mkdir ./dist && tsc -b ./src/2-basic-types",
@@ -26,6 +27,7 @@
     "build7": "yarn clean && mkdir ./dist && tsc -b ./src/7-classes",
     "build8": "yarn clean && mkdir ./dist && tsc -b ./src/8-declaration",
     "build9": "yarn clean && mkdir ./dist && tsc -b ./src/9-module",
+    "build10": "yarn clean && mkdir ./dist && tsc -b ./src/10-nominal-typing",
     "clean": "rm -rf ./dist"
   },
   "devDependencies": {
