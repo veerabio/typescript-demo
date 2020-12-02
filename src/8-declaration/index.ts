@@ -1,7 +1,7 @@
-import { random as randomLoadash } from 'lodash';
+import { random as randomLodash } from 'lodash';
 import { random as randomUnder } from 'underscore';
 
-const r1 = randomLoadash(0, 5);
+const r1 = randomLodash(0, 5);
 
 const r2 = randomUnder(0, 1);
 
